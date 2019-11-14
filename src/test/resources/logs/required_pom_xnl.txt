@@ -1,0 +1,17 @@
+Required POM XML
+
+1)  webdrivermanager
+2)  selenium-java
+3)  testng
+4)  apache-poi
+5)  apache-ooxml
+6)  extentreports
+7)  log4j
+8)  reportng
+9)  google- guice
+10) javax mail
+11) mysql-connector-java
+12) maven-surefire-plugin
+
+
+

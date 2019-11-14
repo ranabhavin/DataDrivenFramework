@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 135.613 s <<< FAILURE! - in TestSuite
+validateDropDownValueOfFilterOnShopPage(com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage)  Time elapsed: 31.158 s  <<< FAILURE!
+java.lang.AssertionError: Expected Data missing : [low to high, high to low]Actual Data found :[]: lists don't have the same size expected [8] but found [6]
+	at com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage.validateDropDownValueOfFilterOnShopPage(TestCase_04_ValidateDropDownValueOfFilterOnShopPage.java:56)
+
+quit(com.bhavin.base.TestBase)  Time elapsed: 36.126 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PFKHA3E', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\BHAVIN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52446}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 814d6b5844acab350ca73e5e05b6f02e
+	at com.bhavin.base.TestBase.quit(TestBase.java:171)
+

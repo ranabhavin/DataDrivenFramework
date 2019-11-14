@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Register Test Suite">
+
+
+	<listeners>
+
+		<listener class-name="com.bhavin.listeners.ExtentListeners" />
+
+	</listeners>
+
+	<test thread-count="5" name="Register Test Cases">
+		<classes>
+			<class
+				name="com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully" />
+			<class
+				name="com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank" />
+			<class
+				name="com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled" />
+			<class
+				name="com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage" />
+
+		</classes>
+	</test> <!-- Register Test Cases -->
+</suite> <!-- Register Test Suite -->
